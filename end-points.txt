@@ -1,0 +1,14 @@
+Voici la liste exhaustive des endpoints définis dans le fichier `src/controllers/AuthRoute.php` :
+
+- **POST** `/auth/register` : inscription d’un utilisateur
+- **POST** `/auth/login` : connexion d’un utilisateur
+- **GET** `/auth/profile` : récupération du profil utilisateur (infos de l’utilisateur connecté)
+- **GET** `/auth/logout` : déconnexion (destruction de la session)
+- **GET** `/auth/hello` : endpoint de test (retourne "hello word")
+- **GET** `/auth/manga` : récupération de la liste des mangas
+- **GET** `/auth/anime` : récupération de la liste des animes (paramètre optionnel `page`)
+- **GET** `/auth/movies` : récupération de la liste des films (paramètre optionnel `page`)
+- **POST** `/auth/episodes` : récupération des épisodes d’un titre (paramètre `title` requis)
+- **GET** `/auth/random` : récupération d’un élément aléatoire
+
+Tous ces endpoints sont regroupés sous le préfixe `/auth`.
